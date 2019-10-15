@@ -1,59 +1,34 @@
-\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
 
-\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm}
 
-\fontdir[fonts/] % Specify the location of the included fonts
+\fontdir[fonts/]
  
-% Color for highlights
-\colorlet{awesome}{awesome-skyblue} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
-%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+\colorlet{awesome}{awesome-skyblue}
 
-% Colors for text - uncomment and modify
-%\definecolor{darktext}{HTML}{414141}
-%\definecolor{text}{HTML}{414141}
-%\definecolor{graytext}{HTML}{414141}
-%\definecolor{lighttext}{HTML}{414141}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
-
-\name{Lukáš}{Forst}
-\address{Mrákov, Pilsen region, Czech Republic}
+\name{Bc. Lukáš}{Forst}
+\address{Prague, Czech Republic}
 \mobile{+420 721 680 117}
 
 \email{lukas@forst.pw}
 \github{LukasForst}
 \linkedin{lukas-forst} 
-%\skype{skypeid}
-%\stackoverflow{SOid}{SOname}
-%\twitter{@twit}
-% \linkedin{Lukas Forst}
-%\reddit{reddit account}
-%\xing{xing name}
-%\extrainfo{test} % Other text you want to include on this line
 
-\position{Software Engineering student{\enskip\cdotp\enskip}Software Engineer{\enskip\cdotp\enskip}Tech Lead} % Your expertise/fields
-% \quote{``Make the change that you want to see in the world."} % A quote or statement
+\position{Software Engineer{\enskip\cdotp\enskip}Cyber Security student}
 
-\makecvfooter{\today}{Lukas Forst~~~·~~~Résumé}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
-
-%----------------------------------------------------------------------------------------
+\makecvfooter{\today}{Lukas Forst~~~·~~~Résumé}{\thepage}
 
 \begin{document}
  
-\makecvheader % Print the header
- 
-%----------------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
-%----------------------------------------------------------------------------------------
+\makecvheader
 
 \input{cv-sections/education.tex}
 \input{cv-sections/experience.tex}
-\input{cv-sections/skills.tex}
 \newpage
+\input{cv-sections/skills.tex}
 \input{cv-sections/extracurricular.tex}
 \input{cv-sections/honors.tex}
-
-%----------------------------------------------------------------------------------------
 
 \end{document}
