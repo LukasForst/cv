@@ -1,3 +1,7 @@
+# Deprecation Notice
+> Deprecated in favor of https://github.com/LukasForst/online-cv
+
+
 This is my personal CV.
 
 # CV
