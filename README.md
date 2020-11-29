@@ -1,10 +1,8 @@
 # Deprecation Notice
 > Deprecated in favor of https://github.com/LukasForst/online-cv
 
-
-This is my personal CV.
-
 # CV
+This is my personal CV.
 Actual generated document can be found in [resume_cv.pdf](resume_cv.pdf).
 
 # Development
